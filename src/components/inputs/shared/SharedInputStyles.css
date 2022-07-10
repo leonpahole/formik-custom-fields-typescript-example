@@ -1,0 +1,33 @@
+.input-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 5px;
+  padding: 15px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: white;
+  outline: none;
+}
+
+.input.error {
+  border-color: red;
+}
+
+.input-bottom-text-container {
+  margin-top: 5px;
+  font-size: 13px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-help-text {
+  color: gray;
+}
+
+.input-error-text {
+  color: red;
+}

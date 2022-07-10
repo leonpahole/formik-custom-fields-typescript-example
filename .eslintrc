@@ -5,6 +5,11 @@
   },
   "rules": {
     "import/prefer-default-export": "off",
-    "react/function-component-definition": "off"
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-plusplus": "off",
+    "react/destructuring-assignment": "off"
   }
 }

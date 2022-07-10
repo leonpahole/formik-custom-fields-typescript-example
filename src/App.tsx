@@ -1,9 +1,8 @@
 import React from "react";
+import { SignupForm } from "./components/signupForm/SignupForm";
 
 export const App: React.FC = () => (
   <div>
-    <header>
-      <h1>Demo: Formik custom fields with Typescript</h1>
-    </header>
+    <SignupForm />
   </div>
 );
