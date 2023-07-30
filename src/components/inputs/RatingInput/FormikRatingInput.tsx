@@ -12,7 +12,7 @@ export const FormikRatingInput: React.FC<RatingInputProps> = (props) => {
         setValue(rating);
       }}
       {...props}
-      errorText={meta.error}
+      errorText={meta.touched ? meta.error : undefined}
     />
   );
 };
